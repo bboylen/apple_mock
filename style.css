@@ -1,0 +1,172 @@
+body, html {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color: #16a1f2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+main {
+    width: 1440px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-section {
+    width: 1440px;
+    height: 689px;
+    padding-top: 0;
+    margin-top: 0;
+    
+    overflow: hidden;
+    background-image: url("images/main.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font: sans-serif;
+
+}
+
+.layout-help {
+    position: absolute;
+    top: 0;
+    height: 10px;
+}
+.top-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 980px;
+    height: 36px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+#apple-logo-button, #store-button, #mac-button, #iPod-button, #iPhone-button, #iPad-button, #iTunes-button, #support-button, #search-button {
+    flex-grow: 1;
+    min-width: 0;
+    width: 0;
+    border-radius: 0;
+    border-width: 1px;
+    border-right: 1px solid rgb(84, 84, 84);
+    border-left: 1px solid rgb(84, 84, 84);
+    background-image: linear-gradient(  rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
+    color: white;
+}
+
+#apple-logo-button {
+    border-radius: 4px 0px 0px 4px;
+}
+
+#search-button {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.main-text h1 {
+    margin-top: 140px;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    line-height: 36px;
+}
+
+.main-text p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    line-height: 36px;
+}
+
+.main-text p:nth-child(3) {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 100;
+    color: white;
+    line-height: 36px;
+}
+
+.bottom-row {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-row a{
+    width:358px;
+    height: 200px;
+}
+
+#iPhone-5s-image {
+    width:358px;
+    height: 200px;
+    background-image: url("images/promo_iphone5s.jpg");
+}
+
+#iPhone-5c-image {
+    width:358px;
+    height: 200px;
+    background-image: url("images/promo_iphone5c.jpg");
+}
+
+#mac-image {
+    width:358px;
+    height: 200px;
+    background-image: url("images/promo_30_years.jpg");
+}
+
+#responsibility-image {
+    width:358px;
+    height: 200px;
+    background-image: url("images/promo_supplier_responsibility.jpg");
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.footer-top {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: #6e6e6e;
+    font-size: .6em;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.left-footer-div, .right-footer-div {
+    display: inline-block;
+}
+
+.left-footer-div {
+    margin-right: 40px;
+}
+
+.footer-bottom {
+    
+    margin-top: 20px;
+    color: #6e6e6e;
+    font-size: .6em;
+    line-height: 1.2;
+    text-align: left;
+}
