@@ -51,8 +51,6 @@ main {
     color: white;
 }
 
-
-
 #apple-logo-button, #store-button, #mac-button, #iPod-button, #iPhone-button, #iPad-button, #iTunes-button, #support-button, #search-button {
     flex-grow: 1;
     min-width: 0;
@@ -61,16 +59,33 @@ main {
     border-width: 1px;
     border-right: 1px solid rgb(84, 84, 84);
     border-left: 1px solid rgb(84, 84, 84);
+    border-top: none;
+    border-bottom: none;
     background-image: linear-gradient(  rgb(104, 104, 104), rgb(94, 94, 94) 50%, rgb(112, 112, 112) 50%, rgb(141, 141, 141) );
     color: white;
 }
 
+#search-button input {
+    width: 80%;
+    height: 50%;
+    font-size: 12px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border-color: rgb(84, 84, 84);
+    border-width: 1px;
+    background: transparent url("images/glass.webp") no-repeat 5px 5px;
+    background-size: 12px 12px;
+}
+
 #apple-logo-button {
     border-radius: 4px 0px 0px 4px;
+    border-left: none;
 }
 
 #search-button {
+    width: 40px;
     border-radius: 0px 4px 4px 0px;
+    border-right: none;
 }
 
 .main-text h1 {
